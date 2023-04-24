@@ -15,12 +15,19 @@ public class Banco {
 		this.saldo = saldo;
 	}
 
-	// Getters
 	public int getiban() {
 		return iban;
 	}
 
 	public double getsaldo() {
 		return saldo;
+	}
+
+	public void setIban(int iban) {
+		this.iban = iban;
+	}
+
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
 	}
 }
