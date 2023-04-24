@@ -14,4 +14,13 @@ public class Banco {
 		this.iban = iban;
 		this.saldo = saldo;
 	}
+
+	// Getters
+	public int getiban() {
+		return iban;
+	}
+
+	public double getsaldo() {
+		return saldo;
+	}
 }
