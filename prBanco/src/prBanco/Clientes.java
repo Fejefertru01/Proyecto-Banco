@@ -8,4 +8,12 @@ public class Clientes {
 		this.nombre = nombre;
 		this.apellidos = apellidos;
 	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public void setApellidos(String apellidos) {
+		this.apellidos = apellidos;
+	}
 }
