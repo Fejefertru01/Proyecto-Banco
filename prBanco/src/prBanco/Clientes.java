@@ -8,4 +8,10 @@ public class Clientes {
 		this.nombre = nombre;
 		this.apellidos = apellidos;
 	}
+	public void getNombre(String nombre) {
+		this.nombre=nombre;
+	}
+	public void getApellidos(String apellidos) {
+		this.apellidos=apellidos;
+	}
 }
