@@ -9,13 +9,14 @@ public class Cuenta {
 	public Cuenta() {
 		iban = 0;
 		saldo = 0;
-		estado="";
+		estado = "";
 	}
 
-	public Cuenta(int iban, double saldo,String estado) {
+	public Cuenta(int iban, double saldo, String estado) {
+
 		this.iban = iban;
 		this.saldo = saldo;
-		this.estado=estado;
+		this.estado = estado;
 	}
 
 	public int getiban() {
@@ -33,9 +34,11 @@ public class Cuenta {
 	public void setSaldo(double saldo) {
 		this.saldo = saldo;
 	}
+
 	public void setEstado(String estado) {
-		this.estado=estado;
+		this.estado = estado;
 	}
+
 	public String getEstado() {
 		return this.estado;
 	}
