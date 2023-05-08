@@ -24,4 +24,9 @@ public class Clientes {
 	public void getApellidos(String apellidos) {
 		this.apellidos = apellidos;
 	}
+
+	public String toString() {
+		return "-------------------\nCliente:\nNombre:" + nombre + "\nApellido: " + apellidos
+				+ "\n-------------------\n";
+	}
 }
