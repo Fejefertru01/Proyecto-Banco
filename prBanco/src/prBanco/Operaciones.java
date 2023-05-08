@@ -1,5 +1,28 @@
 package prBanco;
 
-public class Operaciones {
+/**
+ * 
+ * @author Pablo Jesús Calvente Ramírez, Fernando Jesús Fernández Trujillo,
+ *         Pablo Perez Iza
+ * @version 1.1
+ */
+public abstract class Operaciones {
 
+	/**
+	 * Bloquea el estado de la cuenta.
+	 * 
+	 * @param c cuenta la cual se va a bloquear
+	 */
+	public void bloquear(Cuenta c) {
+		c.setEstado("Bloqueada");
+	}
+
+	/**
+	 * Activa la cuenta.
+	 * 
+	 * @param c cuenta la cual se va a activar.
+	 */
+	public void desbloquear(Cuenta c) {
+		c.setEstado("Activa");
+	}
 }
