@@ -39,4 +39,7 @@ public class Cuenta {
 	public String getEstado() {
 		return this.estado;
 	}
+	public String toString() {
+		return "Saldo: "+this.saldo+" ,estado: "+this.estado;
+	}
 }
