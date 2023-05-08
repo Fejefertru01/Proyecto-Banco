@@ -1,18 +1,21 @@
 package prBanco;
 
-public class Banco {
+public class Cuenta {
 
 	private int iban;
 	private double saldo;
+	private String estado;
 
-	public Banco() {
+	public Cuenta() {
 		iban = 0;
 		saldo = 0;
+		estado="";
 	}
 
-	public Banco(int iban, double saldo) {
+	public Cuenta(int iban, double saldo,String estado) {
 		this.iban = iban;
 		this.saldo = saldo;
+		this.estado=estado;
 	}
 
 	public int getiban() {
@@ -29,5 +32,11 @@ public class Banco {
 
 	public void setSaldo(double saldo) {
 		this.saldo = saldo;
+	}
+	public void setEstado(String estado) {
+		this.estado=estado;
+	}
+	public String getEstado() {
+		return this.estado;
 	}
 }
