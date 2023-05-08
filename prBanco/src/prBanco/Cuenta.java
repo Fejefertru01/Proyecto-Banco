@@ -37,7 +37,6 @@ public class Cuenta {
 
 	public Cuenta(int iban, double saldo, String estado) {
 
-
 		this.iban = iban;
 		this.saldo = saldo;
 		this.estado = estado;
@@ -99,6 +98,11 @@ public class Cuenta {
 	public String getEstado() {
 		return this.estado;
 	}
+	
+	/**
+	 * Representa a la cuenta de la manera deseada
+	 * @return representacion de la cuenta
+	 */
 	public String toString() {
 		return "Saldo: "+this.saldo+" ,estado: "+this.estado;
 	}
