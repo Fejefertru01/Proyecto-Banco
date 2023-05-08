@@ -26,7 +26,7 @@ public class Cuenta {
 		estado = "";
 	}
 
-<<<<<<< HEAD
+
 	/**
 	 * Constructor clase cuenta
 	 * 
@@ -34,11 +34,10 @@ public class Cuenta {
 	 * @param saldo  saldo de la cuenta
 	 * @param estado estado de la cuenta
 	 */
-	public Cuenta(int iban, double saldo, String estado) {
-=======
+
 	public Cuenta(int iban, double saldo, String estado) {
 
->>>>>>> c24fe17cdc89a3ddf30815528ef535412ddb3b64
+
 		this.iban = iban;
 		this.saldo = saldo;
 		this.estado = estado;
@@ -80,26 +79,23 @@ public class Cuenta {
 		this.saldo = saldo;
 	}
 
-<<<<<<< HEAD
+
 	/**
 	 * Setter del estado
 	 * 
 	 * @param estado
 	 */
-=======
->>>>>>> c24fe17cdc89a3ddf30815528ef535412ddb3b64
+
 	public void setEstado(String estado) {
 		this.estado = estado;
 	}
 
-<<<<<<< HEAD
 	/**
 	 * Getter del estado
 	 * 
 	 * @return estado
 	 */
-=======
->>>>>>> c24fe17cdc89a3ddf30815528ef535412ddb3b64
+
 	public String getEstado() {
 		return this.estado;
 	}
